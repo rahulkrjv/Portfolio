@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your custom CSS file here -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Add a Google Font for the text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Add Font Awesome for icons -->
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 25px;
+            background-color: #f9f9f9;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-icons {
+            font-size: 2.5rem;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Rahul Kumar, and I am a highly motivated and detail-oriented Computer Science and Engineering
+            student with a passion for programming and problem-solving. Skilled in Python, C++, HTML, CSS, and Kotlin,
+            with experience in software development, web development, and object-oriented programming. Committed
+            to continuous learning and seeking opportunities to apply knowledge in practical settings.</p>
+            <a href="/Images/Resume.pdf">Resume</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <a href="#"><img src="/Images/Lib management sys.jpg" alt="Library Management System"></a>
+                <h3 class="project-title">Library Management System</h3>
+                <p class="project-description">The Library Management System is a user-friendly software solution
+                    designed to efficiently organize and streamline library operations. Developed using the programming
+                    language C++ and incorporating object-oriented programming (OOP) concepts, this system provides a
+                    comprehensive platform for managing library resources and employees. With its intuitive interface
+                    and robust functionality, the Library Management System simplifies tasks such as cataloging books,
+                    tracking borrowing and returning, and managing employee roles and responsibilities. By leveraging
+                    the power of C++ and OOP, this software ensures seamless operations, enhancing the overall
+                    efficiency and productivity of library management.</p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="/Images/E-shop.jpg" alt="E-Shop & Employee Management System"></a>
+                <h3 class="project-title">E-Shop & Employee Management System</h3>
+                <p class="project-description">The E-Shop & Employee Management System is a versatile software
+                    application created using the C++ programming language and leveraging object-oriented programming
+                    (OOP) concepts. This comprehensive solution aims to efficiently manage an E-Shop, encompassing both
+                    employees and inventory. With its intuitive interface and robust functionality, this software
+                    streamlines tasks such as employee management, inventory tracking, and sales monitoring. By
+                    utilizing C++ and OOP principles, this system ensures smooth operations, facilitating effective
+                    management of an E-Shop and enhancing overall productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <!--<p>contact information here:</p>-->
+        <div class="contact-icons">
+            <a href="https://github.com/rahulkrjv"><i class="fab fa-github"></i></a>
+            <a href="mailto:your-rahulkrjv00@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/rahul-kumar-jnv"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
