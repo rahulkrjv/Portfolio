@@ -16,7 +16,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AdarshMishra26/Curriculam-vitae.git
+git clone https://github.com/rahulkrjv/Portfolio.git
 ```
 
 2. Navigate to the project directory:
@@ -36,4 +36,4 @@ Contributions are welcome! If you have suggestions, feature requests, or found a
 
 ## Author
 
-[Adarsh Mishra](https://github.com/AdarshMishra26)
+[Adarsh Mishra](https://github.com/rahulkrjv/Portfolio.git)
