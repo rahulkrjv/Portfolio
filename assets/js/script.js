@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Adarsh Mishra";
+            document.title = "Portfolio | Rahul Kumar";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
-            document.title = "Portfolio | Adsrh Mishra";
+            document.title = "Portfolio | Rahul Kumar";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
     });
