@@ -36,4 +36,4 @@ Contributions are welcome! If you have suggestions, feature requests, or found a
 
 ## Author
 
-[Adarsh Mishra](https://github.com/rahulkrjv/Portfolio.git)
+[Rahul Kumar](https://github.com/rahulkrjv/Portfolio.git)
